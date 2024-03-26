@@ -49,6 +49,6 @@ class UsersSeeder extends Seeder
                 'updated_at' => NOW()
             ],
             ];
-            $this->user->insert($user);
+            $this->user->insert($users);
     }
 }
